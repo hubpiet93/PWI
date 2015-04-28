@@ -1,0 +1,6 @@
+c:\users\hubert\documents\visual studio 2013\Projects\PWI\Strona\Strona\bin\Strona.dll.config
+c:\users\hubert\documents\visual studio 2013\Projects\PWI\Strona\Strona\bin\Strona.dll
+c:\users\hubert\documents\visual studio 2013\Projects\PWI\Strona\Strona\bin\Strona.pdb
+c:\users\hubert\documents\visual studio 2013\Projects\PWI\Strona\Strona\obj\Debug\Strona.csprojResolveAssemblyReference.cache
+c:\users\hubert\documents\visual studio 2013\Projects\PWI\Strona\Strona\obj\Debug\Strona.dll
+c:\users\hubert\documents\visual studio 2013\Projects\PWI\Strona\Strona\obj\Debug\Strona.pdb
