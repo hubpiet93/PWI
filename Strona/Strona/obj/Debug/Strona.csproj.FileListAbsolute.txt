@@ -4,3 +4,9 @@ c:\users\hubert\documents\visual studio 2013\Projects\PWI\Strona\Strona\bin\Stro
 c:\users\hubert\documents\visual studio 2013\Projects\PWI\Strona\Strona\obj\Debug\Strona.csprojResolveAssemblyReference.cache
 c:\users\hubert\documents\visual studio 2013\Projects\PWI\Strona\Strona\obj\Debug\Strona.dll
 c:\users\hubert\documents\visual studio 2013\Projects\PWI\Strona\Strona\obj\Debug\Strona.pdb
+C:\Users\Hubert\Desktop\PWI GitHub\PWI\Strona\Strona\bin\Strona.dll.config
+C:\Users\Hubert\Desktop\PWI GitHub\PWI\Strona\Strona\bin\Strona.dll
+C:\Users\Hubert\Desktop\PWI GitHub\PWI\Strona\Strona\bin\Strona.pdb
+C:\Users\Hubert\Desktop\PWI GitHub\PWI\Strona\Strona\obj\Debug\Strona.csprojResolveAssemblyReference.cache
+C:\Users\Hubert\Desktop\PWI GitHub\PWI\Strona\Strona\obj\Debug\Strona.dll
+C:\Users\Hubert\Desktop\PWI GitHub\PWI\Strona\Strona\obj\Debug\Strona.pdb

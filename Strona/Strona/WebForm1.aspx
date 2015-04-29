@@ -14,6 +14,11 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet"/>
     <!-- LESS Script -->
     <script src="Scripts/less-1.5.1.min.js" type="text/javascript"></script>
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/facebook.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -67,22 +72,22 @@
         <div  class="carousel-inner" role="listbox">
             
             <div class="item active">
-                <img src="images/1.jpg" alt="" />
+                <asp:Image ID="Slajd1" runat="server" />
                 <div class="carousel-caption">
                     <h1>A po pracy... :)</h1>
                 </div>
             </div>
             <div class="item">
-                <img src="images/2.jpg" alt="..."/>
+                <asp:Image ID="Slajd2" runat="server" />
             </div>
             <div class="item">
-                <img src="images/3.jpg" alt="..."/>
+                <asp:Image ID="Slajd3" runat="server" />
             </div>
             <div class="item">
-                <img src="images/4.jpg" alt="..."/>
+                <asp:Image ID="Slajd4" runat="server" />
             </div>
             <div class="item">
-                <img src="images/5.jpg" alt="..."/>
+                <asp:Image ID="Slajd5" runat="server" />
             </div>
         </div>
 
@@ -167,17 +172,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                    <img src="images/Icons/programming.png" alt="" class="img-responsive"/>
-
+                    <asp:Image ID="Ikona1" runat="server" />
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                    <img src="images/Icons/css8.png" alt="" class="img-responsive"/>
+                    <asp:Image ID="Ikona2" runat="server" />
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                    <img src="images/Icons/html.png" alt="" class="img-responsive"/>
+                    <asp:Image ID="Ikona3" runat="server" />
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                    <img src="images/Icons/javascript.png" alt="" class="img-responsive"/>
+                    <asp:Image ID="Ikona4" runat="server" />
                 </div>
             </div>
         </div>
@@ -194,10 +198,9 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 omnie-cialo">
-                    <%--<img src="images/me1.jpg" alt="" class="img-circle img-responsive " />--%>
-                    <asp:Image ID="zdjecie2" runat="server" />
-                    <a class="btn btn-default" data-toggle="modal" data-target="#modal-me" href="#" role="button">Czytaj</a>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 omnie-cialo wow bounceIn">
+                    <asp:Image ID="Me" runat="server" />
+                    <a class="btn btn-default " data-toggle="modal" data-target="#modal-me" href="#" role="button">Czytaj</a>
                 </div>
                 
             </div>
@@ -218,40 +221,40 @@
                 </div>
             </div>
             <div class="row " id="zadania-btn">
-                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-                    <a class="btn btn-default btn-lg btn-block pomoc" href="#zadanie1" role="button">Zadanie 1</a>
+                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 wow flipInY">
+                    <a class="btn btn-default btn-lg btn-block pomoc " href="#zadanie1" role="button">Zadanie 1</a>
                 </div>
-                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 wow flipInY">
                     <a class="btn btn-default btn-lg btn-block pomoc" href="#zadanie2" role="button">Zadanie 2</a>
                 </div>
-                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 wow flipInY">
                     <a class="btn btn-default btn-lg btn-block pomoc" href="#zadanie3" role="button">Zadanie 3</a>
                 </div>
-                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 wow flipInY">
                     <a class="btn btn-default btn-lg btn-block pomoc" href="#zadanie4" role="button">Zadanie 4</a>
                 </div>
-                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 wow flipInY">
                     <a class="btn btn-default btn-lg btn-block pomoc" href="#zadanie5" role="button">Zadanie 5</a>
                 </div>
-                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 wow flipInY">
                     <a class="btn btn-default btn-lg btn-block pomoc" href="#zadanie6" role="button">Zadanie 6</a>
                 </div>
-                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 wow flipInY">
                     <a class="btn btn-default btn-lg btn-block pomoc" href="#zadanie7" role="button">Zadanie 7</a>
                 </div>
-                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 wow flipInY">
                     <a class="btn btn-default btn-lg btn-block pomoc" href="#zadanie8" role="button">Zadanie 8</a>
                 </div>
-                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 wow flipInY">
                     <a class="btn btn-default btn-lg btn-block pomoc" href="#zadanie9" role="button">Zadanie 9</a>
                 </div>
-                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 wow flipInY">
                     <a class="btn btn-default btn-lg btn-block pomoc" href="#zadanie10" role="button">Zadanie 10</a>
                 </div>
-                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 wow flipInY">
                     <a class="btn btn-default btn-lg btn-block pomoc" href="#zadanie11" role="button">Zadanie 11</a>
                 </div>
-                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 wow flipInY">
                     <a class="btn btn-default btn-lg btn-block pomoc" href="#zadanie12" role="button">Zadanie 12</a>
                 </div>
             </div>
@@ -264,20 +267,19 @@
     <section id="zadanie1" class="zadanie">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 zadanie-nag">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 zadanie-nag wow bounceInDown">
                     <h2>Zadanie 1</h2>
-                    <h4>Te a reprehenderit non est quis vidisse. De tamen commodo.</h4>
+                    <h4>Wykonanie tylko w HTML5 i CSS3</h4>
                 </div>
             </div>
             <div class="row zadanie-opis">
-                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6">
-                    <img src="images/zadania/1.jpg" alt="" class="img-responsive thumbnail"/>
+                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 wow bounceInLeft">
+                    <asp:Image ID="Zadanie1"   runat="server" />
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 wow bounceInRight">
                     <h3>Opis zadania:</h3>
                     <p>
-                        Aute probant occaecat ut iudicem quem mentitum fabulas. Qui quis enim duis
-                        mandaremus, si probant comprehenderit. Esse litteris incurreret.
+                        Tematem pierwszego zadania było stworzenie strony internetowej z wykorzystaniem tylko HTML5 i CSS3, strona dodatkowo miała ładnie wyglądać.
                     </p>
                 </div>
             </div>
@@ -290,21 +292,20 @@
     <section id="zadanie2" class="zadanie">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 zadanie-nag">
-                    <h2>Zadanie 1</h2>
-                    <h4>Te a reprehenderit non est quis vidisse. De tamen commodo.</h4>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 zadanie-nag wow fadeInDown">
+                    <h2>Zadanie 2</h2>
+                    <h4>Gra w JavaScript</h4>
                 </div>
             </div>
             <div class="row zadanie-opis">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 wow fadeInLeft" >
                     <h3>Opis zadania:</h3>
                     <p>
-                        Aute probant occaecat ut iudicem quem mentitum fabulas. Qui quis enim duis
-                        mandaremus, si probant comprehenderit. Esse litteris incurreret.
+                        Tematem drugiego zadania było stworzenie strony dowolnej gry opartej tylko na technologii JavaScript. Ja postanowiłem zrobić popularną grę kółko i krzyżyk.
                     </p>
                 </div>
-                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6">
-                    <img src="images/zadania/1.jpg" alt="" class="img-responsive thumbnail"/>
+                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 wow fadeInRight">
+                    <asp:Image ID="Zadanie2"   runat="server" />
                 </div>
             </div>
         </div>
@@ -315,20 +316,19 @@
     <section id="zadanie3" class="zadanie">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 zadanie-nag">
-                    <h2>Zadanie 1</h2>
-                    <h4>Te a reprehenderit non est quis vidisse. De tamen commodo.</h4>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 zadanie-nag wow rotateIn">
+                    <h2>Zadanie 3</h2>
+                    <h4>Single Page Application</h4>
                 </div>
             </div>
-            <div class="row zadanie-opis">
-                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6">
-                    <img src="images/zadania/1.jpg" alt="" class="img-responsive img-thumbnail"/>
+            <div class="row zadanie-opis  ">
+                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6  wow rotateInDownLeft">
+                    <asp:Image ID="Zadanie3"   runat="server" />
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6  wow rotateInDownRight">
                     <h3>Opis zadania:</h3>
                     <p>
-                        Aute probant occaecat ut iudicem quem mentitum fabulas. Qui quis enim duis
-                        mandaremus, si probant comprehenderit. Esse litteris incurreret.
+                        Tematem trzeciego zadania było Przebudowanie strony zgodnie z ideą Single Page Application, oraz zapewnienie aby strona była w pełni Responsywna. 
                     </p>
                 </div>
             </div>
@@ -340,21 +340,50 @@
     <section id="zadanie4" class="zadanie">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 zadanie-nag">
-                    <h2>Zadanie 1</h2>
-                    <h4>Te a reprehenderit non est quis vidisse. De tamen commodo.</h4>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 zadanie-nag  wow zoomIn">
+                    <h2>Zadanie 4</h2>
+                    <h4>Facebook api</h4>
                 </div>
             </div>
             <div class="row zadanie-opis">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 wow zoomInLeft">
                     <h3>Opis zadania:</h3>
                     <p>
-                        Aute probant occaecat ut iudicem quem mentitum fabulas. Qui quis enim duis
-                        mandaremus, si probant comprehenderit. Esse litteris incurreret.
+                        Tematem czwartego zadania było wyciągnięcie dowolnej ilości danych z facebooka, od użytkownika logującego się na stronie .
                     </p>
+
+
+                    <h3><a class="btn" onclick="FB.login()">ZALOGUJ</a></h3>
+                    <h4 >Po zalogowaniu odśwież stronę</h4>
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th id="szerokosc">Nagłówek</th>
+                                    <th>Dane</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Imie</td>
+                                    <td id="imie"></td>
+                                </tr>
+                                <tr>
+                                    <td>Nazwisko</td>
+                                    <td id="nazwisko"></td>
+                                </tr>
+                                <tr>
+                                    <td>Link</td>
+                                    <td id="link"></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
                 </div>
-                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6">
-                    <img src="images/zadania/1.jpg" alt="" class="img-responsive thumbnail"/>
+                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 wow zoomInRight">
+                    <asp:Image ID="Zadanie4"   runat="server" />
                 </div>
             </div>
         </div>
@@ -365,21 +394,21 @@
     <section id="zadanie5" class="zadanie">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 zadanie-nag">
-                    <h2>Zadanie 1</h2>
-                    <h4>Te a reprehenderit non est quis vidisse. De tamen commodo.</h4>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 zadanie-nag wow zoomIn">
+                    <h2>Zadanie 5</h2>
+                    <h4>WebForms</h4>
                 </div>
             </div>
-            <div class="row zadanie-opis">
+            <div class="row zadanie-opis wow zoomIn">
                 <div class="hidden-xs col-sm-6 col-md-6 col-lg-6">
-                    <img src="images/zadania/1.jpg" alt="" class="img-responsive thumbnail"/>
+                    <asp:Image ID="Zadanie5"   runat="server" />
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <h3>Opis zadania:</h3>
                     <p>
-                        Aute probant occaecat ut iudicem quem mentitum fabulas. Qui quis enim duis
-                        mandaremus, si probant comprehenderit. Esse litteris incurreret.
+                        Tematem piątego zadania było stworzenie strony zbudowanej na WebForms lub MVC.NET .
                     </p>
+
                 </div>
             </div>
         </div>
@@ -398,9 +427,6 @@
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                     <h5>Masz pytania</h5>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad </p>
-                    <h5>Nasz adres:</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
-                    <h5> sadsad asd asd</h5>
                     <h2>000 000 000 </h2>
                 </div>
                 <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 col-sm-offset-1 col-md-offset-1  col-lg-offset-1  ">
@@ -440,16 +466,16 @@
 
 
     <!--Okna modalne-->
-    <div class="modal fade modalne-omnie" id="modal-me" tabindex="-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade modalne-omnie" id="modal-me" tabindex="-2" role="dialog" aria-labelledby="modalne1" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">O mnie</h4>
+            <h4 class="modal-title" id="modalne1">O mnie</h4>
             <h3 class="modal-title" >Hubert Pietruczuk</h3>
           </div>
           <div class="modal-body">
-              <img src="images/me1.jpg" alt="" class="img-rounded img-responsive " />
+              <asp:Image ID="Me_Modal"   runat="server" />
               <p>O enim domesticarum quo labore te pariatur o nulla. Te quid ad lorem, appellat 
                   est culpa, malis hic eiusmod, qui pariatur hic nescius ubi te elit aute si 
                   pariatur ad et irure fabulas incurreret, tamen consequat tractavissent, magna 
@@ -463,8 +489,6 @@
         </div>
       </div>
     </div>
-
-
 
     <!-- JavaScript -->
     <script src="Scripts/jquery-1.9.1.min.js"></script>

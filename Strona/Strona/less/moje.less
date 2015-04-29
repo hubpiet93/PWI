@@ -101,7 +101,7 @@ body{
     width:100%;
     .item{
         width:100%;
-        max-height:900px;
+        height:900px;
         img{
             width:100%;
         }
@@ -147,11 +147,10 @@ body{
 
 #ikony{
     .padding-top-bottom(100px,100px);
-    background-color:#bbb;
+    background-color:@czerwony;
     img{
-        width:170px;
-        filter: invert(100%);
-        -webkit-filter: invert(100%);
+        width:200px;
+        height:150px;
         &:hover{
             -webkit-animation: rubberBand .8s;
         	animation: rubberBand .8s;
@@ -176,6 +175,8 @@ body{
         
         img.img-responsive{
            margin: 0 auto;
+           width:300px;
+           height:300px;
            &:hover{
             -webkit-animation: pulse .8s;
         	animation: pulse .8s;
@@ -227,6 +228,12 @@ body{
     text-align:center;
     .padding-top-bottom(160px,100px);
     border-bottom:@linia;
+    .zadanie-opis{
+        img{
+            width:660px;
+            height:400px;
+        }
+    }
     .zadanie-nag{
         h2{
             color:@czerwony;
@@ -252,7 +259,21 @@ body{
     }
 }
 
-
+#zadanie4{
+    .zadanie-opis 
+    {
+        table{
+            tr{
+                td{
+                    text-align:left;
+                }
+            }
+        }
+        h4{
+            color:#ddd;
+        }
+    }
+}
 #kontakt{
         padding-top:120px;
         padding-bottom:200px;
@@ -304,6 +325,8 @@ button.wyslij:hover{
     .modal-body{
         .img-responsive{
             margin:0 auto;
+            height:300px;
+            width:300px;
         }
         p{
             padding-top:50px;

@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://hubpiet93@hubertpietruczuk.heliohost.org/public_html/webforms</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Strona.dll">
+      <publishTime>04/28/2015 16:44:17</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>04/27/2015 14:05:18</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>04/27/2015 14:05:18</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>04/27/2015 14:05:18</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>04/27/2015 14:05:18</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>04/27/2015 14:05:18</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>04/27/2015 14:05:18</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/27/2015 14:06:08</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/27/2015 14:06:08</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/27/2015 14:06:08</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/27/2015 14:06:07</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>04/27/2015 14:06:07</publishTime>
+    </File>
+    <File Include="css/Animate.css">
+      <publishTime>04/27/2015 14:21:38</publishTime>
+    </File>
+    <File Include="css/moje.css">
+      <publishTime>04/28/2015 09:42:55</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/27/2015 14:05:18</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/27/2015 14:05:18</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/27/2015 14:05:18</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/27/2015 14:05:18</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>04/27/2015 14:05:18</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/27/2015 14:03:56</publishTime>
+    </File>
+    <File Include="Icon.png">
+      <publishTime>04/27/2015 14:05:18</publishTime>
+    </File>
+    <File Include="images/1.jpg">
+      <publishTime>04/22/2015 17:30:37</publishTime>
+    </File>
+    <File Include="images/2.jpg">
+      <publishTime>04/22/2015 17:30:50</publishTime>
+    </File>
+    <File Include="images/3.jpg">
+      <publishTime>04/22/2015 17:37:58</publishTime>
+    </File>
+    <File Include="images/4.jpg">
+      <publishTime>04/22/2015 17:30:41</publishTime>
+    </File>
+    <File Include="images/5.jpg">
+      <publishTime>04/22/2015 17:30:56</publishTime>
+    </File>
+    <File Include="images/Icons/css8.png">
+      <publishTime>04/24/2015 09:06:03</publishTime>
+    </File>
+    <File Include="images/Icons/html.png">
+      <publishTime>04/24/2015 09:05:20</publishTime>
+    </File>
+    <File Include="images/Icons/javascript.png">
+      <publishTime>04/24/2015 09:08:50</publishTime>
+    </File>
+    <File Include="images/Icons/programming.png">
+      <publishTime>04/24/2015 09:21:37</publishTime>
+    </File>
+    <File Include="images/me1.jpg">
+      <publishTime>07/07/2014 09:49:50</publishTime>
+    </File>
+    <File Include="images/me2.jpg">
+      <publishTime>07/07/2014 09:51:29</publishTime>
+    </File>
+    <File Include="images/me3.jpg">
+      <publishTime>07/07/2014 09:49:50</publishTime>
+    </File>
+    <File Include="images/me4.jpg">
+      <publishTime>07/07/2014 09:51:29</publishTime>
+    </File>
+    <File Include="images/zadania/1.jpg">
+      <publishTime>04/24/2015 09:43:53</publishTime>
+    </File>
+    <File Include="Index.html">
+      <publishTime>04/27/2015 23:21:39</publishTime>
+    </File>
+    <File Include="js/moje.js">
+      <publishTime>04/27/2015 14:24:44</publishTime>
+    </File>
+    <File Include="js/moje2.js">
+      <publishTime>04/27/2015 17:01:45</publishTime>
+    </File>
+    <File Include="less/moje.less">
+      <publishTime>04/28/2015 09:42:55</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/28/2015 16:43:55</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>04/27/2015 14:06:07</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>04/27/2015 14:06:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.js">
+      <publishTime>04/27/2015 14:05:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.js">
+      <publishTime>04/27/2015 14:05:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.map">
+      <publishTime>04/27/2015 14:05:11</publishTime>
+    </File>
+    <File Include="Scripts/less-1.5.1.js">
+      <publishTime>04/27/2015 14:08:22</publishTime>
+    </File>
+    <File Include="Scripts/less-1.5.1.min.js">
+      <publishTime>04/27/2015 14:08:21</publishTime>
+    </File>
+    <File Include="Scripts/npm.js">
+      <publishTime>04/27/2015 14:05:18</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/28/2015 16:44:35</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>04/28/2015 16:28:38</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

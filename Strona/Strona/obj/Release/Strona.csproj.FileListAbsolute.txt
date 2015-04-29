@@ -1,0 +1,6 @@
+C:\Users\Hubert\Desktop\PWI GitHub\PWI\Strona\Strona\bin\Strona.dll.config
+C:\Users\Hubert\Desktop\PWI GitHub\PWI\Strona\Strona\bin\Strona.dll
+C:\Users\Hubert\Desktop\PWI GitHub\PWI\Strona\Strona\bin\Strona.pdb
+C:\Users\Hubert\Desktop\PWI GitHub\PWI\Strona\Strona\obj\Release\Strona.csprojResolveAssemblyReference.cache
+C:\Users\Hubert\Desktop\PWI GitHub\PWI\Strona\Strona\obj\Release\Strona.dll
+C:\Users\Hubert\Desktop\PWI GitHub\PWI\Strona\Strona\obj\Release\Strona.pdb
