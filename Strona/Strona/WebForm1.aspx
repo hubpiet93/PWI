@@ -21,7 +21,7 @@
     <script src="js/facebook.js"></script>
 </head>
 <body>
-    <form id="form1" runat="server">
+
      <div id="cos"></div>
     <header id="menu" class="navbar-fixed-top">
         <div class="container">
@@ -58,7 +58,7 @@
     <!--============-->
     <!--Pokaz slajdów-->
     <!--===========-->
-    <div id="pokaz1" class="carousel slide" data-ride="carousel">
+    <div id="pokaz1" class="carousel slide " data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#pokaz1" data-slide-to="0" class="active"></li>
@@ -78,16 +78,16 @@
                 </div>
             </div>
             <div class="item">
-                <asp:Image ID="Slajd2" runat="server" />
+                <asp:Image ID="Slajd2"  runat="server" />
             </div>
             <div class="item">
-                <asp:Image ID="Slajd3" runat="server" />
+                <asp:Image ID="Slajd3"  runat="server" />
             </div>
             <div class="item">
                 <asp:Image ID="Slajd4" runat="server" />
             </div>
             <div class="item">
-                <asp:Image ID="Slajd5" runat="server" />
+                <asp:Image ID="Slajd5"  runat="server" />
             </div>
         </div>
 
@@ -262,14 +262,15 @@
     </section>
 
     <!--============-->
+        
     <!--Zadanie 1-->
     <!--===========-->
     <section id="zadanie1" class="zadanie">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 zadanie-nag wow bounceInDown">
-                    <h2>Zadanie 1</h2>
-                    <h4>Wykonanie tylko w HTML5 i CSS3</h4>
+                    <h2><asp:Label ID="zad1_label" runat="server" Text="Zadanie 1"></asp:Label></h2>
+                    <h4><asp:Label ID="zad1_label_podpis" runat="server" Text="Wykonanie tylko w HTML5 i CSS3"></asp:Label></h4>
                 </div>
             </div>
             <div class="row zadanie-opis">
@@ -279,7 +280,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 wow bounceInRight">
                     <h3>Opis zadania:</h3>
                     <p>
-                        Tematem pierwszego zadania było stworzenie strony internetowej z wykorzystaniem tylko HTML5 i CSS3, strona dodatkowo miała ładnie wyglądać.
+                        <asp:Label ID="zadanie1_opis" runat="server" Text="Tematem pierwszego zadania było stworzenie strony internetowej z wykorzystaniem tylko HTML5 i CSS3, strona dodatkowo miała ładnie wyglądać."></asp:Label>
                     </p>
                 </div>
             </div>
@@ -407,7 +408,9 @@
                     <h3>Opis zadania:</h3>
                     <p>
                         Tematem piątego zadania było stworzenie strony zbudowanej na WebForms lub MVC.NET .
+                        
                     </p>
+                    <a href="https://github.com/hubpiet93/PWI " class="btn btn-info">Link do kodu na github</a>
 
                 </div>
             </div>
@@ -415,7 +418,7 @@
     </section>
 
 
-
+     <div id="formid"></div>
     <section id="kontakt" class="jumbotron">
         <div class="container">
             <div class="row">
@@ -431,22 +434,34 @@
                 </div>
                 <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 col-sm-offset-1 col-md-offset-1  col-lg-offset-1  ">
                     
-                    
-                    <form action="#" method="post">
+                   
+                    <form action="#formid"  runat="server" method="get" >
                         <div class="form-group">
-                            <label for="uzytkownik" class="control-label">Imię i nazwisko:</label>
-                            <input type="text" class="form-control" name="uzytkownik" placeholder="Imię i nazwisko"/>
+                            <asp:Label ID="imienazwisko_label" CssClass="control-label" runat="server" Text="Imię i nazwisko"></asp:Label>
+                            <asp:TextBox ID="imienazwisko_text" CssClass="form-control" runat="server"></asp:TextBox>
                         </div>
                         <div class="form-group">
-                            <label for="email" class="control-label">Email:</label>
-                            <input type="text" class="form-control" name="email" placeholder="adres email: osoba@moj_serwer.pl"/>
+                            <asp:Label ID="email_label" CssClass="control-label" runat="server" Text="Email"></asp:Label>
+                            <asp:TextBox ID="email_text" CssClass="form-control" runat="server"></asp:TextBox>
                         </div>
                         <div class="form-group">
-                            <label for="uwagi" class="control-label">Uwagi:</label>
-                            <textarea class="form-control" name="uwagi" rows="8" title="Tylko bez wulgaryzmów :) " data-toggle="tooltip" data-placement="top"></textarea>
+                            <asp:Label ID="uwagi_label" CssClass="control-label" runat="server" Text="Uwagi"></asp:Label>
+                            <textarea class="form-control" name="uwagi" rows="8" title="Tylko bez wulgaryzmów :) " data-toggle="tooltip" data-placement="top"></textarea>   
                         </div>
+
+                        
                         <div class="form-group">
-                            <button type="submit" class="btn btn-success btn-lg wyslij">wyślij</button>
+                            <asp:Button ID="Button1" runat="server" CssClass="btn btn-success btn-lg wyslij" OnClick="Button1_Click" Text="Wyślij" />
+                        </div>
+                        <div class="bg-danger">
+                            <p> 
+                                <asp:Label ID="Errors" runat="server" Text=""></asp:Label>
+                            </p>
+                        </div>
+                        <div class="bg-success">
+                            <p> 
+                                <asp:Label ID="Good" runat="server" Text=""></asp:Label>
+                            </p>
                         </div>
                     </form>
                 </div>
@@ -496,6 +511,6 @@
     <script src="js/moje.js"></script>
     <script src="js/moje2.js"></script>
     <script>  $("textarea").tooltip(); </script>
-    </form>
+
 </body>
 </html>

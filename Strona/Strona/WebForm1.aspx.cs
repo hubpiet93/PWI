@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -16,7 +17,7 @@ namespace Strona
             Slajd3.ImageUrl = "images/3.jpg";
             Slajd4.ImageUrl = "images/4.jpg";
             Slajd5.ImageUrl = "images/5.jpg";
-
+            
 
             Ikona1.ImageUrl = "images/Icons/programming.png";
             Ikona1.CssClass = "img-responsive";
@@ -64,5 +65,32 @@ namespace Strona
             Me_Modal.CssClass = "img-rounded  img-responsive";
             
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Regex imienazwisko_test = new Regex("^[A-Za-z]{2,30} [A-Za-z]{2,30}$");
+            Regex email_test = new Regex(@"^[a-z0-9\._%-]+@[a-z0-9\.-]+\.[a-z]{2,4}$");
+            bool correct = true;
+           
+            Errors.Text = "";
+            Good.Text = "";
+            if (!imienazwisko_test.IsMatch((imienazwisko_text.Text).ToLower()))
+            {
+                correct = false;
+                Errors.Text = Errors.Text + "Złe imie i nazwisko" + imienazwisko_text.Text + "<br/>";
+            }
+            if (!email_test.IsMatch((email_text.Text).ToLower()))
+            {
+                correct = false;
+                Errors.Text = Errors.Text + "Zły email" + "<br/>";
+            }
+
+            if (correct == true)
+            {
+                Errors.Text = "";
+                Good.Text = "Dane są poprawne";
+            }
+        }
+
     }
 }
