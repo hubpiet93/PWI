@@ -77,7 +77,7 @@ namespace Strona
             if (!imienazwisko_test.IsMatch((imienazwisko_text.Text).ToLower()))
             {
                 correct = false;
-                Errors.Text = Errors.Text + "Złe imie i nazwisko" + imienazwisko_text.Text + "<br/>";
+                Errors.Text = Errors.Text + "Złe imie i nazwisko" + "<br/>";
             }
             if (!email_test.IsMatch((email_text.Text).ToLower()))
             {
