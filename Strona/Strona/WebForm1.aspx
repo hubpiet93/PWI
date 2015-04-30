@@ -22,7 +22,7 @@
 </head>
 <body>
 
-     <div id="cos"></div>
+     <div id="cos">lalala</div>
     <header id="menu" class="navbar-fixed-top">
         <div class="container">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
